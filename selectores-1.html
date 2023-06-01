@@ -15,17 +15,30 @@
             margin: 0;
         }
         /*Selector etiqueta*/
-        div{
+        div, p{
             background-color: aqua;
+        }
+        /* Selector de clase*/
+        /* Atributo class (.)*/
+        .Amarillo {
+            background-color: blueviolet;
+        }
+        /*Selector id*/
+        /*Atributo id (#)*/
+        #cuadro {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            background-color: beige;
         }
     </style>
 </head>
 <body>
-    <div>Este es un div</div>
-    <div>Este es un div</div>
-    <div>Este es un div</div>
+    <div class="Amarillo">Este es un div</div>
+    <div id="cuadro">Este es un div</div>
+    <div class="Amarillo">Este es un div</div>
     <p>Este es un parrafo </p>
-    <p>Este es un parrafo </p>
+    <p class="Amarillo">Este es un parrafo </p>
     <p>Este es un parrafo </p>
 </body>
 </html>
