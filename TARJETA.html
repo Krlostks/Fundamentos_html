@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .card{
+            width: 400px;
+            height: 600px;
+            margin: 100px auto;
+            background-color: azure;
+            border-radius: 20px;
+            box-shadow: 10px 10px 10px 10px #ccc;
+            overflow: hidden;
+            position: relative;
+        }
+        .card img{
+            width: 400px;
+            height: 550px;
+        }
+        .card nav {
+            position: absolute;
+            top: 1px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .card nav li{
+            display: inline-block;
+            width: 80px;
+            height: 40px;
+        }
+        .card nav li a{
+            display: block;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            width: 100%;
+            height: 100%;
+        }
+        .card nav li a:hover{
+            border-bottom: 3px solid rgba(17, 164, 255, 0.58);
+        }
+        .card-contaier h2{
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 200px;
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://images.pexels.com/photos/15940332/pexels-photo-15940332/free-photo-of-escaleras-palacio-rural-fachada.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="card-contaier">
+        <h2>Mi tarjeta</h2>
+    </div>
+</div>
+</body>
+</html>
